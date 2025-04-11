@@ -4,5 +4,11 @@
     "api/tracks.js": {
       "runtime": "nodejs18.x"
     }
-  }
+  },
+  "builds": [
+    {
+      "src": "api/tracks.js",
+      "use": "@vercel/node"
+    }
+  ]
 }
