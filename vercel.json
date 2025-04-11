@@ -2,13 +2,7 @@
   "version": 2,
   "functions": {
     "api/tracks.js": {
-      "runtime": "nodejs18.x"
+      "runtime": "@vercel/node"
     }
-  },
-  "builds": [
-    {
-      "src": "api/tracks.js",
-      "use": "@vercel/node"
-    }
-  ]
+  }
 }
